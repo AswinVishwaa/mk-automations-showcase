@@ -97,7 +97,7 @@ const IOCLSolutions = () => {
         </div>
 
         {/* Installation Locations */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div id="installations" className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {Object.entries(installations).map(([division, locations]) => (
             <Card 
               key={division} 
