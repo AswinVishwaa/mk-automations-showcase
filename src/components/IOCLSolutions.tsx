@@ -32,7 +32,7 @@ const IOCLSolutions = () => {
       "Sankari (TN)",
       "Ramanathapuram (TN)", 
       "Manali—Chennai (TN)",
-      "Vijayavada—Andrapradesh"
+      "Vijayawada—Andhra Pradesh"
     ],
     WRPL: [
       "Viramgam (GJ)",
