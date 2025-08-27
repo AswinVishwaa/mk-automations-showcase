@@ -90,7 +90,7 @@ const Contact = () => {
               <h3 className="text-2xl font-bold text-foreground mb-6">
                 Request a Quote
               </h3>
-              <form className="space-y-6">
+              <form action="https://formspree.io/f/xvgbgozz" method="POST" className="space-y-6">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-sm font-medium text-foreground mb-2">

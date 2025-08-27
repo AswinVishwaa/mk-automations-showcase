@@ -1,4 +1,5 @@
 import { MapPin, Phone, Mail, Building } from 'lucide-react';
+import mkLogo from '../assets/logo.png';
 
 const Footer = () => {
   const scrollToSection = (href: string) => {
@@ -14,12 +15,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-2">
-            <div className="flex items-center space-x-3 mb-6">
-              <div className="w-12 h-12 bg-primary-foreground/20 rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-xl">MK</span>
-              </div>
-              <span className="font-bold text-2xl">MK Automations</span>
-            </div>
+            <button onClick={() => scrollToSection('#hero')} className="flex items-center">
+            <img src={mkLogo} alt="MK Automations Logo" className="h-12 w-auto" />
+          </button>
             <p className="text-primary-foreground/80 mb-6 max-w-md">
               Delivering innovative automation solutions that enhance productivity, quality, and safety across multiple industries. Trusted partner of IOCL and leading corporations.
             </p>
@@ -91,7 +89,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/20 mt-12 pt-8 text-center">
           <p className="text-primary-foreground/60">
-            © 2024 MK Automations. All rights reserved. | Empowering Industries Through Innovation
+            © 2025 MK Automations. All rights reserved. | Empowering Industries Through Innovation
           </p>
         </div>
       </div>
